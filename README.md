@@ -34,17 +34,18 @@ After building the tool, you can run it directly from the command line:
 
 Output:
 
-![image](https://github.com/user-attachments/assets/2c13c597-cfdb-4636-8b7e-929f016a9d80)
+![image](https://github.com/user-attachments/assets/21f15e69-fbdf-4718-83af-cfce61cf02db)
+
 
 ## Output Explanation
 
-- `!BLK`: Path is blacklisted.
 - `+ADD`: Path exists only in the second file.
 - `-DEL`: Path exists only in the first file.
 - `!TYP`: Type mismatch at the given path.
 - `:EXS`: Path exists in both files (shown only when not in strict mode).
 - `=EQL`: Path values are equal (shown only when not in strict mode).
 - `!EQL`: Path values are different.
+- `!BLK`: Path is blacklisted.
 
 
 ### Options
