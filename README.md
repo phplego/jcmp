@@ -32,6 +32,20 @@ After building the tool, you can run it directly from the command line:
 
 ![image](https://github.com/user-attachments/assets/ab7663d3-3449-412c-a6d0-c48bb7ee0748)
 
+Output:
+
+![image](https://github.com/user-attachments/assets/2c13c597-cfdb-4636-8b7e-929f016a9d80)
+
+## Output Explanation
+
+- `!BLK`: Path is blacklisted.
+- `+ADD`: Path exists only in the second file.
+- `-DEL`: Path exists only in the first file.
+- `!TYP`: Type mismatch at the given path.
+- `:EXS`: Path exists in both files (shown only when not in strict mode).
+- `=EQL`: Path values are equal (shown only when not in strict mode).
+- `!EQL`: Path values are different.
+
 
 ### Options
 
@@ -47,16 +61,6 @@ After building the tool, you can run it directly from the command line:
 ```
 
 This command compares `data1.json` and `data2.json` in strict mode, ignoring changes in the `meta` and `config.version` paths.
-
-## Output Explanation
-
-- `!BLK`: Path is blacklisted.
-- `+ADD`: Path exists only in the second file.
-- `-DEL`: Path exists only in the first file.
-- `!TYP`: Type mismatch at the given path.
-- `:EXS`: Path exists in both files (shown only when not in strict mode).
-- `=EQL`: Path values are equal (shown only when not in strict mode).
-- `!EQL`: Path values are different.
 
 ## Contributions
 
