@@ -30,6 +30,9 @@ After building the tool, you can run it directly from the command line:
 ./jcmp <file1.json> <file2.json> [options]
 ```
 
+![image](https://github.com/user-attachments/assets/ab7663d3-3449-412c-a6d0-c48bb7ee0748)
+
+
 ### Options
 
 - `-p`: Path within the JSON files to specifically compare. If omitted, compares entire files.
